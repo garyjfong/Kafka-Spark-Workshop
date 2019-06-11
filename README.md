@@ -67,5 +67,6 @@ To exit any of the terminal operations, use ctrl+D or ctrl+C.
 
 Run structured_streaming_spark.py to view Spark Streaming print out messages to the console. This is basically running a Spark Job on streaming data.
 
+Create a new topic named twitter_topic.
 Run twitter_stream_producer.py to read streams from the Twitter API. 
 
