@@ -1,6 +1,6 @@
 # Kafka-Spark Workshop
 
-The following instructions are to setup a simple Kafka-Spark connection to further your understanding of Kafka and Spark. Currently, only the Kafka Docker container is setup. THe next step would be to link a Spark container to the Kafka container so they can talk to each other.
+The following instructions are to setup a simple Kafka-Spark connection to further your understanding of Kafka and Spark. Currently, only the Kafka Docker container is set up. The next step would be to link a Spark container to the Kafka container so they can talk to each other.
 
 **Download Docker:**
 
