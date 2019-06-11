@@ -12,7 +12,7 @@ def main():
     sc.setLogLevel('ERROR')
     port = 'localhost:9092'
 
-    df = read_stream(spark, 'test-topic', port)
+    df = read_stream(spark, 'names', port)
     print(type(df))
     df.printSchema()
 
