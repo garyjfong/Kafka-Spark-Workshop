@@ -8,10 +8,21 @@ Download Docker if you have not done so already.
 
 https://docs.docker.com/docker-for-mac/install/
 
+**Download Pycharm:**
+
+https://www.jetbrains.com/pycharm/
+
 **Clone this repo:**
 ```
 git clone https://github.com/garyjfong/Kafka-Spark-Workshop.git
 ```
+**Create a Twitter Dev account:**
+
+If you want to have your own access keys, sign up for a developer account. Otherwise, I will provide you with my access keys for the demonstration.
+
+https://developer.twitter.com/en/apply-for-access
+
+
 **Open a terminal window and pull and run the image, spotify/kafka:**
 ```
 docker run -d -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST="localhost" --env ADVERTISED_PORT=9092 --name kafka -h kafka spotify/kafka
@@ -66,7 +77,13 @@ bin/kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic names --from
 
 If you type something and press return in the producer window, you should see the message being retrieved and shown in the consumer window. The Producer is sending messages to Kafka, which stores it in topics, then the messages can be consumed from those topics.
 
-**With the Consumer terminal window still open, open the project repo in Pycharm:**
+**With the Consumer terminal window still open, open the project repo as a project in Pycharm:**
+
+Run the following command to properly install everything:
+
+```
+pip install
+```
 
 Open the kafka_producer.py
 
