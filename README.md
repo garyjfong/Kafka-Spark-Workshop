@@ -66,7 +66,7 @@ bin/kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic names --from
 
 If you type something and press return in the producer window, you should see the message being retrieved and shown in the consumer window. The Producer is sending messages to Kafka, which stores it in topics, then the messages can be consumed from those topics.
 
-**With the terminal window still open and Kafka still running, open the project repo in Pycharm:**
+**With the Consumer terminal window still open, open the project repo in Pycharm:**
 
 Open the kafka_producer.py
 
