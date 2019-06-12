@@ -79,10 +79,11 @@ If you type something and press return in the producer window, you should see th
 
 **With the Consumer terminal window still open, open the project repo as a project in Pycharm:**
 
-Run the following command to properly install everything:
+Set the local interpreter to Python3.7
 
+Run the following command to properly install everything:
 ```
-pip install
+pip3 install -r requirements.txt
 ```
 
 Open the kafka_producer.py
