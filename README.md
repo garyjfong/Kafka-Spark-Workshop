@@ -20,6 +20,13 @@ docker run -d -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST="localhost" --env 
 ```
 docker ps
 ```
+The terminal should print something like this:
+
+![alt text][docker ps]
+
+[docker ps]: https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/main/resources/docker_ps.png
+
+
 **SSH into the docker container:**
 ```
 docker exec -it kafka /bin/bash
@@ -40,6 +47,10 @@ You can specify the replication factor and number of partitions for each topic.
 ```
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 ```
+![alt text][topic list]
+
+[topic list]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/main/resources/list_topics.png
+
 **Open a new terminal window/tab and go into the container again, cd into the kafka folder:**
 
 Create a producer:
