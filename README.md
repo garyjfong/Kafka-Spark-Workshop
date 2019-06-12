@@ -81,7 +81,23 @@ If you type something and press return in the producer window, you should see th
 
 Set the local interpreter to Python3.7
 
-Run the following command to properly install everything:
+![alt text][set_local_interpreter_1]
+
+[set_local_interpreter_1]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/main/resources/set_local_interpreter_1.png
+
+![alt text][set_local_interpreter_2]
+
+[set_local_interpreter_2]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/main/resources/set_local_interpreter_2.png
+
+![alt text][set_local_interpreter_3]
+
+[set_local_interpreter_3]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/main/resources/set_local_interpreter_3.png
+
+![alt text][set_local_interpreter_4]
+
+[set_local_interpreter_4]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/main/resources/set_local_interpreter_4.png
+
+Run the following command to properly install everything or click the 'install requirements' hint:
 ```
 pip3 install -r requirements.txt
 ```
