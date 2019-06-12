@@ -53,6 +53,8 @@ cd opt/kafka_2.11-0.10.1.0
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic names
 ```
 You can specify the replication factor and number of partitions for each topic.
+Replication factor is the number of replicas or copies of that topic within a cluster of Kafka brokers. 
+Partitions specifies how many partitions the topic should be split up into. Partitioning a topic allows multiple consumers to read from the topic in parallel.
 
 **Make sure the topic appears on the list of topics:**
 ```
