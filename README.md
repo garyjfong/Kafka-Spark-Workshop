@@ -35,7 +35,7 @@ The terminal should print something like this:
 
 ![alt text][docker ps]
 
-[docker ps]: https://github.com/garyjfong/Kafka-Spark-Workshop/tree/master/src/resources/docker_ps.png
+[docker ps]: https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/src/resources/docker_ps.png
 
 
 **SSH into the docker container:**
@@ -62,7 +62,7 @@ bin/kafka-topics.sh --list --zookeeper localhost:2181
 ```
 ![alt text][topic list]
 
-[topic list]:https://github.com/garyjfong/Kafka-Spark-Workshop/tree/master/src/resources/list_topics.png
+[topic list]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/src/resources/list_topics.png
 
 **Open a new terminal window/tab and go into the container again, cd into the kafka folder:**
 
@@ -85,19 +85,19 @@ Set the local interpreter to Python3.7
 
 ![alt text][set_local_interpreter_1]
 
-[set_local_interpreter_1]:https://github.com/garyjfong/Kafka-Spark-Workshop/tree/master/src/resources/set_local_interpreter_1.png
+[set_local_interpreter_1]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/src/resources/set_local_interpreter_1.png
 
 ![alt text][set_local_interpreter_2]
 
-[set_local_interpreter_2]:https://github.com/garyjfong/Kafka-Spark-Workshop/tree/master/src/resources/set_local_interpreter_2.png
+[set_local_interpreter_2]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/src/resources/set_local_interpreter_2.png
 
 ![alt text][set_local_interpreter_3]
 
-[set_local_interpreter_3]:https://github.com/garyjfong/Kafka-Spark-Workshop/tree/master/src/resources/set_local_interpreter_3.png
+[set_local_interpreter_3]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/src/resources/set_local_interpreter_3.png
 
 ![alt text][set_local_interpreter_4]
 
-[set_local_interpreter_4]:https://github.com/garyjfong/Kafka-Spark-Workshop/tree/master/src/resources/set_local_interpreter_4.png
+[set_local_interpreter_4]:https://github.com/garyjfong/Kafka-Spark-Workshop/blob/master/src/resources/set_local_interpreter_4.png
 
 Run the following command to properly install everything or click the 'install requirements' hint:
 ```
