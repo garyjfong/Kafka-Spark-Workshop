@@ -6,7 +6,7 @@ names==0.3.0
 oauthlib==3.0.1
 py4j==0.10.7
 PySocks==1.7.0
-pyspark==2.4.3
+pyspark==3.2.2
 requests==2.22.0
 requests-oauthlib==1.2.0
 six==1.12.0
